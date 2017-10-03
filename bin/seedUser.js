@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 var bcrypt = require('bcrypt');
-const saltRounds = 25;
+const saltRounds = 10;
 
 require('dotenv').config();
 

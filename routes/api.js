@@ -6,5 +6,7 @@ const sendmail = require('sendmail')({ silent: true });
 const router = express.Router();
 
 router.post('/login', function (req, res, next) {
-    console.log(res.body);
+    console.log(req.body);
 });
+
+module.exports = router;
